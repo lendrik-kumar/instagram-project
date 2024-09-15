@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navBar{
+    height: 75px;
+    background-color:#000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bird{
+    
+    height: 50px;
+    width: 50px;
+    margin-right: 1200px;   
+}
+
+.bird:hover{
+    border: #aac9c9 solid 2px;
+}
+
+#logomy{
+    object-fit: contain;
+    height: 80%;
+    width: 80%;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+#src{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+   
+    margin-left: 50px;
+    color: rgb(188, 204, 219);
+}
+
+#src:hover{
+    border: #aac9c9 solid 2px;
+}
+
+.hero{
+    display:flex;
+    height: 850px;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    justify-content: center;
+}
+
+.credentials{
+    padding: 10px;
+    width: 400px;
+    height: 500px;
+    border: 3px solid rgb(97, 90, 90);
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 250px;
+    margin-left: 150px;
+}
+
+.ins-logo{
+    height: 80px;
+    width: 200px;
+    display: flex;
+    object-fit: contain;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+#linkto{
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+
+#buttons{
+    margin: 10px;
+    width: 80%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+}
+
+.username{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.pass{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#goButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 60px;
+    background-color: #0f1111;
+    color:aliceblue;
+    font-size: large;
+    font-weight:normal;
+    margin-left: 33px;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+.ad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+/*
+output box
+*/
+
+.output{
+    border: #0f1111 solid 3px;
+    height: 750px;
+    width: 600px;
+    margin-right: 200px;
+   border-radius: 20px;
+}
+
+.heading{
+    height: 10%;
+    border-bottom: #0f1111 solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.outputpy{
+    margin: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow:hidden;
+    overflow-y: scroll;
+    line-height: 30px;
+}
+
+
+/*
+footr
+*/
+
+.foot{
+    background-color: #000000;
+    color: rgb(188, 204, 219);
+    height: 170px;
+}
+
+.headingf{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vaidik{
+    margin-right: 350px;
+}
+
+.sanket{
+    margin-left: 350px;
+}
+
+.pp{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+p{
+    margin-bottom: 10px;
+    margin-left: 30px;
+    color: #aac9c9;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
